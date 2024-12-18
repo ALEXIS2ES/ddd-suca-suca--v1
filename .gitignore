@@ -1,0 +1,35 @@
+# Directorios y archivos de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Archivos de configuración de Maven y Gradle
+/.mvn/wrapper/maven-wrapper.properties
+/.mvn/wrapper/maven-wrapper.jar
+/target/
+.gradle/
+build/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Archivos específicos de configuraciones locales
+*.local
+*.swp
+
+# Archivos y directorios generados por Spring Boot
+logs/
+*.jar
+*.war
+
+# Configuración de herramientas como Docker o Node.js (si aplica)
+node_modules/
+.env
+
+# Archivos binarios o cache
+*.class
